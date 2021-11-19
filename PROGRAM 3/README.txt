@@ -1,14 +1,10 @@
 TEAM 3
 
 Anusha Phaniraj
-1KS20AI004
 anushaphaniraj1209@gmail.com
-+91 83101 55208
 
 Sahithi Bhashyam
-1KS20AI036
 sahithib.uni@gmail.com
-+91 82967 96003
 
 LOGIC USED
 
