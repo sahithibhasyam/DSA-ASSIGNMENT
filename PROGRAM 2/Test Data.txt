@@ -1,0 +1,85 @@
+Input 1:
+$ gcc -o mine Ha01-prog03.c
+$ ./mine 9 9 10
+Output 1:
+0 0 1 1 1 0 0 0 0 
+0 0 2 * 2 0 1 1 1 
+2 2 3 * 2 0 1 * 1 
+* * 2 1 1 0 1 1 1 
+2 2 1 0 0 1 1 2 1 
+0 0 0 1 1 2 * 2 * 
+0 0 0 1 * 2 1 3 2 
+1 1 0 1 1 1 0 1 * 
+* 1 0 0 0 0 0 1 1 
+
+Input 2:
+$ gcc -o mine Ha01-prog03.c
+$ ./mine 9 9 10
+Output 2:
+0 0 0 0 0 0 1 2 2 
+1 1 0 0 0 0 1 * * 
+* 1 1 1 2 2 3 3 2 
+1 1 1 * 2 * * 2 1 
+0 0 1 1 2 2 2 2 * 
+0 0 0 0 0 0 0 1 1 
+1 1 1 0 0 0 0 0 0 
+2 * 1 0 0 0 1 1 1 
+* 2 1 0 0 0 1 * 1 
+
+Input 3:
+$ ./mine 9 9 10
+Output 3:
+0 0 0 0 1 * 1 1 * 
+0 0 0 1 2 2 1 1 1 
+0 0 0 1 * 1 0 0 0 
+0 1 1 2 1 2 1 2 1 
+0 1 * 1 0 1 * 2 * 
+0 1 1 1 0 1 1 2 1 
+1 1 1 0 0 0 0 0 0 
+1 * 2 1 1 1 1 2 1 
+1 1 2 * 1 1 * 2 * 
+
+Input 4:
+$ gcc -o mine Ha01-prog03.c
+$ ./mine -8 9 10
+Output 4:
+Invalid Input
+
+Input 5:
+$ gcc -o mine Ha01-prog03.c
+$ ./mine 4 3 15
+Output 5:
+Invalid Input
+
+Input 6:
+$ gcc -o mine Ha01-prog03.c
+$ ./mine 7 8 21
+Output 6:
+Invalid Input
+
+Input 7:
+$ gcc -o mine Ha01-prog03.c
+./mine 10 15 -15
+Output 7:
+Invalid Input
+
+Input 8:
+$ gcc -o mine Ha01-prog03.c
+./mine 11 18
+Output 8:
+Invalid Output
+
+Input 9:
+$ gcc -o mine Ha01-prog03.c
+./mine 8 9 0
+Output 9:
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+
+
